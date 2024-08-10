@@ -1,0 +1,15 @@
+#ifndef MY_CONTROLLER_H
+#define MY_CONTROLLER_H
+
+#include <snowfall/core/request.h>
+#include <snowfall/core/response.h>
+
+class MyController
+{
+  public:
+    MyController();
+    void Hello(::snowfall::core::Request& req, ::snowfall::core::Response& res);
+    void List(::snowfall::core::Request& req, ::snowfall::core::Response& res);
+};
+
+#endif

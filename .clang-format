@@ -1,0 +1,4 @@
+BasedOnStyle: Google
+BreakBeforeBraces: Allman
+ColumnLimit: 120  # The limit to allow longer lines before breaking
+IndentWidth: 2
